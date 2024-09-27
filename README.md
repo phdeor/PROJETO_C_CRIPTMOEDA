@@ -20,11 +20,14 @@ Realizar outro depósito.
 
 Retornar ao menu principal, onde pode consultar o saldo ou executar outras funções.
 
+
 CONSIDERAÇÃO
 
 Validação de entrada: A função verifica se o valor do depósito é positivo, caso contrário, exibe uma mensagem de erro.
 
 Controle de fluxo: Após o depósito, o usuário tem a opção de realizar um novo depósito ou voltar ao menu principal.
+
+
 PARTICIPANTES
 
 GUSTAVO SOUZA ALVARENGA      RA:  22124058-3

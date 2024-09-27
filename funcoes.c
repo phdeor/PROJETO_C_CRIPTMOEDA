@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h>  // Para usar a função exit()
+#include <stdlib.h>
 #include "funcao.h"
 
 typedef struct {

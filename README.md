@@ -1,46 +1,20 @@
-OBJETIVO DO PROJETO
+OBJETIVO
 
-Este projeto tem como objetivo desenvolver uma aplicação de Exchange de criptomoedas, que permite aos usuários realizar operações de compra, venda, e consulta de três tipos de moedas:
- 
-o  Bitcoin:   Taxa de 2% na compra.
-              Taxa de 3% na venda.
-
-o  Ethereum:  Taxa de 1% na compra.
-              Taxa de 2% na venda.
-
-o  Ripple:    Taxa de 1% na compra.
-              Taxa de 1% na venda.
-
-A aplicação simula uma carteira de investimentos com funcionalidades básicas de transação e consulta.
+A função sacar permite ao usuário retirar uma quantidade de dinheiro da sua conta em reais. Após o saque, o saldo do usuário é atualizado e ele pode escolher entre realizar um novo saque ou retornar ao menu principal.
 
 
 PROCESSOS
 
-o  Efetuar login com CPF e senha.
+A função solicita ao usuário um valor a ser sacado.
 
-o  Consultar saldo de reais, Bitcoin, Ethereum e Ripple na carteira de investimentos.
+O valor é subtraído do saldo em reais, desde que seja maior que 0.
 
-o  Consultar extrato de operações da carteira.
+Após o saque, a função exibe uma mensagem confirmando a operação e oferece a opção de realizar outro saque ou voltar ao menu principal.
 
-o  Depositar reais na carteira de investimentos.
+O usuário pode escolher entre:
+Sacar novamente: Continuar realizando saques.
 
-o  Sacar reais da carteira (validação por senha necessária).
-
-o  Comprar criptomoedas (com validação de senha e confirmação).
-
-o  Vender criptomoedas (com validação de senha e confirmação).
-
-o  Atualizar cotação das criptomoedas (variação aleatória de até ±5%).
-
-
-
-FORMA DE USO DO PROGRAMA
-
-  Login:   O usuário deve fornecer seu CPF e SENHA para acessar o sistema.
-
-  Operações de Carteira:   Após o login, o usuário pode consultar seu saldo, extrato,depósitos, saques, e transações com criptomoedas.
-
-  Atualizações de Cotação:   A cotação das criptomoedas pode ser atualizada automaticamente com variações de até ±5% a cada transação.
+Continuar: Voltar ao menu principal OU consultar o saldo atualizado.
 
 
 PARTICIPANTES
@@ -50,4 +24,3 @@ GUSTAVO SOUZA ALVARENGA      RA:  22124058-3
 GUSTAVO DELFINO DE C PEREIRA RA:  22124039-3
 
 PEDRO HENRIQUE L DE OLIVEIRA RA:  22124019-5
-

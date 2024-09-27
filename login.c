@@ -2,16 +2,17 @@
 #include <string.h>
 #include "funcao.h"
 
-#define USUARIO "49878672816"
-#define SENHA "070303"
+#define CPF "123456789"
+#define SENHA "12345"
+#define USUARIO "Souza_henrique_delfino"
 
-// Função para efetuar login
-int login() {
+void login() {
     char user[20];
     char password[20];
 
     while (1) {
         printf("\nLOGIN\n");
+
         printf("Digite o seu CPF: ");
         fgets(user, sizeof(user), stdin);
         user[strcspn(user, "\n")] = '\0';
@@ -20,39 +21,25 @@ int login() {
         fgets(password, sizeof(password), stdin);
         password[strcspn(password, "\n")] = '\0';
 
-        if (strcmp(USUARIO, user) == 0 && strcmp(SENHA, password) == 0) {
+        printf("\n");
+
+        if (strcmp(CPF, user) == 0 && strcmp(SENHA, password) == 0) {
+            printf("\n");
             printf("Login efetuado com sucesso\n");
-            return 1;
+            break;
         } else {
-            printf("Senha ou usuario incorreto. Tente novamente.\n");
+            printf("\n");
+            printf("Senha ou usuario incorreto\n");
         }
     }
 }
 
-// Função principal
 int main() {
-    int opcao;
-
-    if (login()) { // Apenas chama o menu se o login for bem-sucedido
-        while (1) {
-            main_menu();
-            printf("Escolha uma opcao: ");
-            if (scanf("%d", &opcao) == 1) {
-                getchar(); // Limpar o buffer do teclado
-
-                switch(opcao) {
-                    // Adicione os casos para outras opções aqui
-                    case 8:
-                        printf("Saindo...\n");
-                        return 0;
-                    default:
-                        printf("Opcaoo invalida. Tente novamente.\n");
-                }
-            } else {
-                printf("Entrada invalida. Tente novamente.\n");
-                while (getchar() != '\n'); // Limpar o buffer do teclado
-            }
-        }
-    }
+   
+    login();
+    main_menu();
+    consultar_saldo();
+    depositar();
     return 0;
 }
+

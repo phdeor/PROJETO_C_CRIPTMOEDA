@@ -4,6 +4,8 @@
 void main_menu();
 void consultar_saldo();
 void depositar();
+void sacar();
+
 
 
 

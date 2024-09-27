@@ -1,48 +1,30 @@
-OBJETIVO DO PROJETO
+DESCRIÇÃO DA FUNÇÃO
 
-Este projeto tem como objetivo desenvolver uma aplicação de Exchange de criptomoedas, que permite aos usuários realizar operações de compra, venda, e consulta de três tipos de moedas:
+A função permite ao usuário inserir um valor que será depositado no saldo em reais. Ela valida o valor informado e garante que apenas valores positivos sejam aceitos. Após um depósito bem-sucedido, o usuário
  
-o  Bitcoin:   Taxa de 2% na compra.
-              Taxa de 3% na venda.
-
-o  Ethereum:  Taxa de 1% na compra.
-              Taxa de 2% na venda.
-
-o  Ripple:    Taxa de 1% na compra.
-              Taxa de 1% na venda.
-
-A aplicação simula uma carteira de investimentos com funcionalidades básicas de transação e consulta.
+pode optar por realizar outro depósito ou continuar com outras opções do sistema.
 
 
-PROCESSOS
+FUNCIONAMENTO
 
-o  Efetuar login com CPF e senha.
+Exibe as informações do usuário, como nome e CPF.
 
-o  Consultar saldo de reais, Bitcoin, Ethereum e Ripple na carteira de investimentos.
+Solicita o valor a ser depositado.
 
-o  Consultar extrato de operações da carteira.
+Verifica se o valor inserido é válido (maior que zero).
 
-o  Depositar reais na carteira de investimentos.
+Se válido, o valor é adicionado ao saldo em reais.
 
-o  Sacar reais da carteira (validação por senha necessária).
+Após o depósito, o usuário pode:
+Realizar outro depósito.
 
-o  Comprar criptomoedas (com validação de senha e confirmação).
+Retornar ao menu principal, onde pode consultar o saldo ou executar outras funções.
 
-o  Vender criptomoedas (com validação de senha e confirmação).
+CONSIDERAÇÃO
 
-o  Atualizar cotação das criptomoedas (variação aleatória de até ±5%).
+Validação de entrada: A função verifica se o valor do depósito é positivo, caso contrário, exibe uma mensagem de erro.
 
-
-
-FORMA DE USO DO PROGRAMA
-
-  Login:   O usuário deve fornecer seu CPF e SENHA para acessar o sistema.
-
-  Operações de Carteira:   Após o login, o usuário pode consultar seu saldo, extrato,depósitos, saques, e transações com criptomoedas.
-
-  Atualizações de Cotação:   A cotação das criptomoedas pode ser atualizada automaticamente com variações de até ±5% a cada transação.
-
-
+Controle de fluxo: Após o depósito, o usuário tem a opção de realizar um novo depósito ou voltar ao menu principal.
 PARTICIPANTES
 
 GUSTAVO SOUZA ALVARENGA      RA:  22124058-3

@@ -1,53 +1,51 @@
 OBJETIVO DO PROJETO
 
 Este projeto tem como objetivo desenvolver uma aplicação de Exchange de criptomoedas, que permite aos usuários realizar operações de compra, venda, e consulta de três tipos de moedas:
- 
-o  Bitcoin:   Taxa de 2% na compra.
-              Taxa de 3% na venda.
 
-o  Ethereum:  Taxa de 1% na compra.
-              Taxa de 2% na venda.
+o Bitcoin: Taxa de 2% na compra. Taxa de 3% na venda.
 
-o  Ripple:    Taxa de 1% na compra.
-              Taxa de 1% na venda.
+o Ethereum: Taxa de 1% na compra. Taxa de 2% na venda.
+
+o Ripple: Taxa de 1% na compra. Taxa de 1% na venda.
 
 A aplicação simula uma carteira de investimentos com funcionalidades básicas de transação e consulta.
 
-
 PROCESSOS
 
-o  Efetuar login com CPF e senha.
+o Efetuar login com CPF e senha.
 
-o  Consultar saldo de reais, Bitcoin, Ethereum e Ripple na carteira de investimentos.
+o Consultar saldo de reais, Bitcoin, Ethereum e Ripple na carteira de investimentos.
 
-o  Consultar extrato de operações da carteira.
+o Consultar extrato de operações da carteira.
 
-o  Depositar reais na carteira de investimentos.
+o Depositar reais na carteira de investimentos.
 
-o  Sacar reais da carteira (validação por senha necessária).
+o Sacar reais da carteira (validação por senha necessária).
 
-o  Comprar criptomoedas (com validação de senha e confirmação).
+o Comprar criptomoedas (com validação de senha e confirmação).
 
-o  Vender criptomoedas (com validação de senha e confirmação).
+o Vender criptomoedas (com validação de senha e confirmação).
 
-o  Atualizar cotação das criptomoedas (variação aleatória de até ±5%).
-
-
+o Atualizar cotação das criptomoedas (variação aleatória de até ±5%).
 
 FORMA DE USO DO PROGRAMA
 
-  Login:   O usuário deve fornecer seu CPF e SENHA para acessar o sistema.
+Login: O usuário deve fornecer seu CPF e SENHA para acessar o sistema.
 
-  Operações de Carteira:   Após o login, o usuário pode consultar seu saldo, extrato,depósitos, saques, e transações com criptomoedas.
+Operações de Carteira: Após o login, o usuário pode consultar seu saldo, extrato,depósitos, saques, e transações com criptomoedas.
 
-  Atualizações de Cotação:   A cotação das criptomoedas pode ser atualizada automaticamente com variações de até ±5% a cada transação.
+Atualizações de Cotação: A cotação das criptomoedas pode ser atualizada automaticamente com variações de até ±5% a cada transação.
+
+Para compilar: gcc -o projeto main.c funcoes.c login.c>>
+
+Para rodar: ./projeto
+
 
 
 PARTICIPANTES
 
-GUSTAVO SOUZA ALVARENGA      RA:  22124058-3
+GUSTAVO SOUZA ALVARENGA RA: 22124058-3
 
-GUSTAVO DELFINO DE C PEREIRA RA:  22124039-3
+GUSTAVO DELFINO DE C PEREIRA RA: 22124039-3
 
-PEDRO HENRIQUE L DE OLIVEIRA RA:  22124019-5
-
+PEDRO HENRIQUE L DE OLIVEIRA RA: 22124019-5

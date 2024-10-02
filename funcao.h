@@ -39,17 +39,17 @@ typedef struct {
 extern Criptomoeda CT[3];
 
 // Protótipos das funções
-void inicializaUsuario(USUARIO usuario, const charnome, const char cpf, float reais, float bitcoin, float ethereum, float ripple);
-void menu(USUARIOusuario);
-void consultar_saldo(USUARIO usuario);
-void consultar_extrato(USUARIOusuario);
-void depositar(USUARIO usuario);
-void sacar(USUARIOusuario);
-void comprar_criptomoedas(USUARIO usuario);
-void vender_criptomoedas(USUARIOusuario);
+void inicializaUsuario(USUARIO *usuario, const char *nome, const char *cpf, float reais, float bitcoin, float ethereum, float ripple);
+void menu(USUARIO *usuario);
+void consultar_saldo(USUARIO *usuario);
+void consultar_extrato(USUARIO *usuario);
+void depositar(USUARIO *usuario);
+void sacar(USUARIO *usuario);
+void comprar_criptomoedas(USUARIO *usuario);
+void vender_criptomoedas(USUARIO *usuario);
 void atualizar_cotacao();
-void gerar_extrato(USUARIO usuario); 
+void gerar_extrato(USUARIO *usuario); 
 void salvar_dados(USUARIO usuarios[], int num_usuarios);
-void carregar_dados(USUARIO usuarios[], intnum_usuarios);
+void carregar_dados(USUARIO usuarios[], int *num_usuarios);
 
 #endif

@@ -375,5 +375,3 @@ void carregar_dados(USUARIO usuarios[], int *num_usuarios) {
         printf("Dados carregados com sucesso!\n");
     }
 }
-
-

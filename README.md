@@ -42,6 +42,10 @@ FORMA DE USO DO PROGRAMA
 
   Atualizações de Cotação:   A cotação das criptomoedas pode ser atualizada automaticamente com variações de até ±5% a cada transação.
 
+  Para compilar: gcc -o projeto main.c funcoes.c login.c>>
+  
+  Para rodar: ./projeto
+
 
 PARTICIPANTES
 
